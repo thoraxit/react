@@ -1,4 +1,3 @@
-// Number Field
                         <TextField
                             {...registerItem('stock',{ valueAsNumber: true })}
                             label="Stock"
