@@ -1,3 +1,4 @@
+partyId: z.number().min(1, { message: 'Please select a Party' }),
 const [partyOptions, setPartyOptions] = useState<PartyOption[]>([]);
 const [party, setParty] = useState<PartyOption | null>(null);
                    
